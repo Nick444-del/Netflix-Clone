@@ -103,7 +103,7 @@ nav button {
     font-size: 20px;
     border-radius: 4px;
     font-weight: bold;
-    transition:  1.5s ease-in-out;
+    transition:  .5s ease-in-out;
 }
 
 .red-btn:hover{
