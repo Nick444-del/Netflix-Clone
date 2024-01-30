@@ -99,11 +99,12 @@ nav button {
     background-color: red;
     cursor: pointer;
     color: white;
-    padding: 5px 24px;
+    padding: 9px 24px;
     font-size: 20px;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: 400;
     transition:  .5s ease-in-out;
+    border: none;
 }
 
 .red-btn:hover{
@@ -121,13 +122,66 @@ nav button {
     background-color: red;
     color: white;
     cursor: pointer;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-transparent{
+    padding: 9px 15px;
+    border-radius: 5px;
 }
 
 .main input {
     padding: 7px 101px 8px 14px;
     font-size: 12px;
     font-weight: 900;
+    color: white;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 483px;
+}
+
+section.first>div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Martel sans', 'Poppins', sans-serif;
+}
+
+section.first>div :nth-child(2){
+    font-size: 24px;
+    font-family: 'Martel sans', 'Poppins', sans-serif;
 }
